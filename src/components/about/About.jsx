@@ -38,9 +38,9 @@ const About = () => {
 
           <p>
             Hi, I'm Gogo Ibimina Felix, a budding web developer passionate about
-            creating with code. I specialize in HTML, CSS, JavaScript, React and
+            creating with code. I specialize in HTML, CSS, JavaScript/Typescript, React and
             Tailwind CSS, and I am also skilled in python programming. My
-            journey in web development hass been fueled by curiosity and a drive
+            journey in web development has been fueled by curiosity and a drive
             to learn.
           </p>
           <a href="#contact" className="btn btn-primary">

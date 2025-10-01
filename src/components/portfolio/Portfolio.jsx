@@ -46,9 +46,9 @@ const data = [
   {
     id: 6,
     image: IMG6,
-    title: "Movie App",
-    github: "http://github.com/IbiminaFG/hng-frontend-movie-app",
-    demo: "https://hng-frontend-movie-app.netlify.app/",
+    title: "Design Tek Empire",
+    github: "https://github.com/IbiminaFG/dte_landing_page",
+    demo: "https://designtekempire.com/",
   },
 ];
 
