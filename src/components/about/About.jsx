@@ -37,7 +37,7 @@ const About = () => {
           </div>
 
           <p>
-            Hi, I'm Gogo Ibimina Felix, a budding web developer passionate about
+            Hi, I'm Gogo Ibimina Felix, a budding web developer and growing experience in blockchain and smart contract development, passionate about
             creating with code. I specialize in HTML, CSS, JavaScript/Typescript, React and
             Tailwind CSS, and I am also skilled in python programming. My
             journey in web development has been fueled by curiosity and a drive
