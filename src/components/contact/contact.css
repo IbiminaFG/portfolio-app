@@ -42,6 +42,10 @@ form {
   gap: 1.2rem;
 }
 
+form button{
+  color: var(--color-primary);
+}
+
 input,
 textarea {
   width: 100%;

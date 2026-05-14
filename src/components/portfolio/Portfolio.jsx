@@ -6,6 +6,7 @@ import IMG3 from "../../assets/portfolio3.png";
 import IMG4 from "../../assets/portfolio4.png";
 import IMG5 from "../../assets/portfolio5.png";
 import IMG6 from "../../assets/portfolio6.png";
+import IMG7 from "../../assets/portfolio7.png";
 
 const data = [
   {
@@ -25,9 +26,9 @@ const data = [
   {
     id: 3,
     image: IMG3,
-    title: "Todo App",
-    github: "http://github.com/IbiminaFG/React_TodoList",
-    demo: "https://react-todolist-web-app.netlify.app/",
+    title: "Verified Website",
+    github: "",
+    demo: "https://verifiedfintech.com/",
   },
   {
     id: 4,
@@ -50,6 +51,13 @@ const data = [
     github: "https://github.com/IbiminaFG/dte_landing_page",
     demo: "https://designtekempire.com/",
   },
+  {
+    id: 7,
+    image: IMG7,
+    title: "Payora",
+    github: "",
+    demo: "https://payora.fun",
+  },
 ];
 
 const Portfolio = () => {
@@ -67,10 +75,26 @@ const Portfolio = () => {
               </div>
               <h3>{title}</h3>
               <div className="portfolio__item-cta">
-                <a href={github} className="btn" rel="noreferrer" target="_blank">
-                  Github
-                </a>
-                <a href={demo} className="btn btn-primary" rel="noreferrer" target="_blank">
+                {github ? (
+                  <a
+                    href={github}
+                    className="btn"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    Github
+                  </a>
+                ) : (
+                  <button className="btn disabled" disabled>
+                    Github
+                  </button>
+                )}
+                <a
+                  href={demo}
+                  className="btn btn-primary"
+                  rel="noreferrer"
+                  target="_blank"
+                >
                   Live Demo
                 </a>
               </div>
